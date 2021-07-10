@@ -1,3 +1,4 @@
+```
 root@debian:/DATA/docker/debian# docker-compose build --no-cache --no-rm slftp
 Building slftp
 Sending build context to Docker daemon  364.5kB
@@ -383,10 +384,10 @@ Removing intermediate container 0de1b7913190
 Successfully built 21e5ef5413d4
 Successfully tagged debian_slftp:latest
 root@debian:/DATA/docker/debian# 
+```
 
 
-
-
+```
 root@debian:/DATA/docker/debian# docker-compose up -d
 debian_znc_maloya_1 is up-to-date
 Recreating slftp ... 
@@ -439,8 +440,9 @@ root@debian:/DATA/docker/debian# docker exec -it slftp slftp_screen
 |Command:                                                                                                                                                                                      v
 `----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------4
 XXX                                     (xxx xxx  x xxx xx that rox the pony) 
+```
 
-
+```
 root@debian:/DATA/docker/debian# docker-compose logs slftp
 Attaching to slftp
 slftp    | Load sequence /startup-sequence/00-try-sh.sh
@@ -478,3 +480,4 @@ slftp    | LIB LINKING /usr/lib/x86_64-linux-gnu/libcrypto.so to /slftp-data
 slftp    | Load sequence /startup-sequence/99-launch.sh
 slftp    | RUNAS[uid=1001(slftp) gid=1001(slftp) groups=1001(slftp)] : /bin/slftp_run
 
+```
