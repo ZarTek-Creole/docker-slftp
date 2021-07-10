@@ -389,11 +389,6 @@ root@debian:/DATA/docker/debian#
 
 ```
 root@debian:/DATA/docker/debian# docker-compose up -d
-debian_znc_maloya_1 is up-to-date
-Recreating slftp ... 
-debian_znc_malagam_1 is up-to-date
-debian_socks5_1 is up-to-date
-ircd is up-to-date
 Recreating slftp ... done
 root@debian:/DATA/docker/debian# docker-compose logs slftp
 Attaching to slftp
