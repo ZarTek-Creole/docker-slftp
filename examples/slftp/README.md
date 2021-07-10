@@ -390,6 +390,8 @@ root@debian:/DATA/docker/debian#
 ```
 root@debian:/DATA/docker/debian# docker-compose up -d
 Recreating slftp ... done
+```
+```
 root@debian:/DATA/docker/debian# docker-compose logs slftp
 Attaching to slftp
 slftp    | Load sequence /startup-sequence/00-try-sh.sh
@@ -426,6 +428,9 @@ slftp    | LIB LINKING /usr/lib/x86_64-linux-gnu/libsqlite3.so to /slftp-data
 slftp    | LIB LINKING /usr/lib/x86_64-linux-gnu/libcrypto.so to /slftp-data
 slftp    | Load sequence /startup-sequence/99-launch.sh
 slftp    | RUNAS[uid=1001(slftp) gid=1001(slftp) groups=1001(slftp)] : /bin/slftp_run
+```
+
+```
 root@debian:/DATA/docker/debian# docker exec -it slftp slftp_screen
                                                                             slFtp v1.5.8 {64-Bit} (git# 951ee80)                                                                     01:08:38
 ,------------------------------------------------------------------------------------------- Admin --------------------------------------------------------------------------------------------.
