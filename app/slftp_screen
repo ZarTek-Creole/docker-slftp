@@ -1,0 +1,2 @@
+#!/bin/bash
+su -g ${USER_GROUP} ${USER_NAME} -c "/usr/bin/screen -x DOCKER_SLFTP"

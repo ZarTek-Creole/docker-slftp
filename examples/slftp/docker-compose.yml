@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  slftp:
+    build: 
+      context: ../..
+      args:
+        - FPC_VERSION=3.2.0
+        - SLFTP_VERSION=1.5.8
+        - UID=1001
+        - GID=1001
+    volumes:
+      - ${SLFTP_DIR_DATA:-./slftp_data}/:/slftp-data/data:rw
+    container_name: slftp
