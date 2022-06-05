@@ -14,11 +14,11 @@ LABEL maintainer="ZarTek <ZarTek.Creole@GMail.com>" \
     org.opencontainers.image.description="SLFTP on debian" \
     org.opencontainers.image.authors="ZarTek <ZarTek.Creole@GMail.com>" \
     org.opencontainers.image.vendor="Creole Family" \
-    org.opencontainers.image.documentation="https://github.com/ZarTek-Creole/docker-slftp" \
+    org.opencontainers.image.documentation="github.com/ZarTek-Creole/docker-slftp" \
     org.opencontainers.image.licenses="Apache License 2.0" \
     org.opencontainers.image.version="0.0.1" \
-    org.opencontainers.image.url="https://github.com/ZarTek-Creole/docker-slftp" \
-    org.opencontainers.image.source="https://github.com/ZarTek-Creole/docker-slftp.git" 
+    org.opencontainers.image.url="github.com/ZarTek-Creole/docker-slftp" \
+    org.opencontainers.image.source="github.com/ZarTek-Creole/docker-slftp.git" 
 
 ARG FPC_VERSION="3.2.0" \
     FPC_ARCH="x86_64-linux" \

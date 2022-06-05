@@ -4,7 +4,7 @@ Building slftp
 Sending build context to Docker daemon  364.5kB
 Step 1/12 : FROM debian:sid-slim AS debian_slftp_builder
  ---> 715e7b66ebe0
-Step 2/12 : LABEL maintainer="ZarTek <ZarTek.Creole@GMail.com>"     org.opencontainers.image.title="SLFTP"     org.opencontainers.image.description="SLFTP on debian"     org.opencontainers.image.authors="ZarTek <ZarTek.Creole@GMail.com>"     org.opencontainers.image.vendor="debian Family"     org.opencontainers.image.documentation="https://github.com/ZarTek-Creole/docker-slftp"     org.opencontainers.image.licenses="Apache License 2.0"     org.opencontainers.image.version="0.0.1"     org.opencontainers.image.url="https://github.com/ZarTek-Creole/docker-slftp"     org.opencontainers.image.source="https://github.com/ZarTek-Creole/docker-slftp.git"
+Step 2/12 : LABEL maintainer="ZarTek <ZarTek.Creole@GMail.com>"     org.opencontainers.image.title="SLFTP"     org.opencontainers.image.description="SLFTP on debian"     org.opencontainers.image.authors="ZarTek <ZarTek.Creole@GMail.com>"     org.opencontainers.image.vendor="debian Family"     org.opencontainers.image.documentation="github.com/ZarTek-Creole/docker-slftp"     org.opencontainers.image.licenses="Apache License 2.0"     org.opencontainers.image.version="0.0.1"     org.opencontainers.image.url="github.com/ZarTek-Creole/docker-slftp"     org.opencontainers.image.source="github.com/ZarTek-Creole/docker-slftp.git"
  ---> Running in e5d7fa35d33c
 Removing intermediate container e5d7fa35d33c
  ---> c48c98560617
