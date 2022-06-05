@@ -9,16 +9,16 @@ FROM debian:sid-slim AS creole_slftp_builder
 # - slftp_screen -> Join the screen (docker exec -it <slftp> -it slftp_screen)
 # CTRL+a d       -> leave screen
 
-LABEL maintainer="MalaGaM <MalaGaM.ARTiSPRETiS@GMail.com>" \
+LABEL maintainer="ZarTek <ZarTek.Creole@GMail.com>" \
     org.opencontainers.image.title="SLFTP" \
     org.opencontainers.image.description="SLFTP on debian" \
-    org.opencontainers.image.authors="MalaGaM <MalaGaM.ARTiSPRETiS@GMail.com>" \
+    org.opencontainers.image.authors="ZarTek <ZarTek.Creole@GMail.com>" \
     org.opencontainers.image.vendor="Creole Family" \
-    org.opencontainers.image.documentation="https://github.com/MalaGaM/docker-slftp" \
+    org.opencontainers.image.documentation="https://github.com/ZarTek-Creole/docker-slftp" \
     org.opencontainers.image.licenses="Apache License 2.0" \
     org.opencontainers.image.version="0.0.1" \
-    org.opencontainers.image.url="https://github.com/MalaGaM/docker-slftp" \
-    org.opencontainers.image.source="https://github.com/MalaGaM/docker-slftp.git" 
+    org.opencontainers.image.url="https://github.com/ZarTek-Creole/docker-slftp" \
+    org.opencontainers.image.source="https://github.com/ZarTek-Creole/docker-slftp.git" 
 
 ARG FPC_VERSION="3.2.0" \
     FPC_ARCH="x86_64-linux" \

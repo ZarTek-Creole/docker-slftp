@@ -3,7 +3,7 @@ slftp version docker
 
 # Download
 ```
-git clone https://github.com/MalaGaM/docker-slftp.git slftp
+git clone https://github.com/ZarTek-Creole/docker-slftp.git slftp
 ```
 
 # Install 
@@ -33,7 +33,7 @@ docker exec -it slftp slftp_screen
  - Clean list of packages
  
   # Bugs, error, idea, ..
-  https://github.com/MalaGaM/docker-slftp/issues/new
+  https://github.com/ZarTek-Creole/docker-slftp/issues/new
   
   # Donation
-  https://github.com/MalaGaM/DONATE
+  https://github.com/ZarTek-Creole/DONATE
